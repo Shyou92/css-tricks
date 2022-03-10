@@ -1,0 +1,18 @@
+@import '../../variables/variables.css';
+
+.button {
+  font-family: var(--button-font-family);
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  padding: var(--button-padding);
+  font-size: var(--button-font-size);
+  cursor: pointer;
+  transition: var(--button-transition);
+}
+
+.button:hover,
+.button:focus {
+  background: var(--button-hover-background-color);
+  color: var(--button-hover-text-color);
+  border-color: var(--button-hover-border-color);
+}

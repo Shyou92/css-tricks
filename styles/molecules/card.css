@@ -1,0 +1,11 @@
+@import '../variables/variables.css';
+@import '../atoms/cards/card-image/card-image.css';
+
+.card {
+  width: var(--card-width);
+  border-width: var(--card-border-width);
+  border-color: var(--card-border-color);
+  border-radius: var(--card-border-radius);
+  border-style: var(--card-border-style);
+  padding: var(--card-padding);
+}

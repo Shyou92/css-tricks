@@ -1,0 +1,41 @@
+@import './global-variables.css';
+
+:root {
+  --button-background-color: #333;
+  --button-text-color: #fff;
+  --button-font-family: Helvetica, sans-serif;
+  --button-font-size: 2rem;
+  --button-font-weight: 400;
+  --button-border-width: 1px;
+  --button-border-style: solid;
+  --button-border-color: #333;
+  --button-border-radius: 0;
+  --button-padding: 1rem 2rem;
+  --button-text-transform: normal;
+  --button-letter-spacing: initial;
+  --button-transition: 0.5s;
+}
+
+.theme-1 {
+  --button-background-color: var(--theme-1-button-background-color);
+  --button-font-family: var(--theme-1-font-family);
+  --button-text-color: var(--theme-1-button-text-color);
+  --button-padding: var(--theme-1-button-padding);
+  --button-font-size: var(--theme-1-button-font-size);
+}
+
+.theme-2 {
+  --button-background-color: var(--theme-2-button-background-color);
+  --button-font-family: var(--theme-2-font-family-primary);
+  --button-text-color: var(--theme-2-button-text-color);
+  --button-padding: var(--theme-2-button-padding);
+  --button-font-size: var(--theme-2-button-font-size);
+}
+
+.theme-3 {
+  --button-background-color: var(--theme-3-color-brand);
+  --button-font-family: var(--theme-3-font-family-primary);
+  --button-text-color: var(--theme-3-button-text-color);
+  --button-padding: var(--theme-3-button-padding);
+  --button-font-size: var(--theme-3-button-font-size);
+}

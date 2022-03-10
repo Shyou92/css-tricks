@@ -1,0 +1,27 @@
+@import '../global-variables.css';
+
+:root {
+  --header-background-color: var(--default-theme-background-color);
+  --header-height: 100px;
+}
+
+.theme-1 {
+  --header-background-color: var(--theme-1-color-brand);
+  --header-text-color: var(--theme-1-color-white);
+  --header-justify-text: var(--theme-1-header-justify-text);
+  --header-align-text: var(--theme-1-header-align-text);
+}
+
+.theme-2 {
+  --header-background-color: var(--theme-2-color-brand);
+  --header-text-color: var(--theme-2-color-white);
+  --header-justify-text: var(--theme-2-header-justify-text);
+  --header-align-text: var(--theme-2-header-align-text);
+}
+
+.theme-3 {
+  --header-background-color: var(--theme-3-color-brand);
+  --header-text-color: var(--theme-3-color-white);
+  --header-justify-text: var(--theme-3-header-justify-text);
+  --header-align-text: var(--theme-3-header-align-text);
+}
