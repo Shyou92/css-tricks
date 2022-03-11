@@ -7,15 +7,17 @@
   --card-border-radius: 0;
   --card-border-style: solid;
   --card-padding: 10px;
+  --card-align-items: center;
 }
 
 .theme-1 {
-  --card-width: 350px;
+  --card-width: 310px;
   --card-border-width: 2px;
   --card-border-color: var(--theme-1-card-border-color);
   --card-border-radius: var(--theme-1-card-border-radius);
   --card-border-style: double;
   --card-padding: 10px;
+  --card-align-items: start;
 }
 
 .theme-2 {
@@ -25,13 +27,15 @@
   --card-border-radius: var(--theme-2-card-border-radius);
   --card-border-style: solid;
   --card-padding: 10px;
+  --card-align-items: end;
 }
 
 .theme-3 {
-  --card-width: 325px;
+  --card-width: 285px;
   --card-border-width: 1px;
   --card-border-color: var(--theme-3-card-border-color);
   --card-border-radius: var(--theme-3-card-border-radius);
   --card-border-style: dashed;
   --card-padding: 10px;
+  --card-align-items: center;
 }

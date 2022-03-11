@@ -5,6 +5,8 @@
 
 @import './styles/molecules/card.css';
 
+@import './styles/organisms/cardList/cardList.css';
+
 body {
   margin: 0;
 }

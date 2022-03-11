@@ -8,4 +8,7 @@
   border-radius: var(--card-border-radius);
   border-style: var(--card-border-style);
   padding: var(--card-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: var(--card-align-items);
 }
